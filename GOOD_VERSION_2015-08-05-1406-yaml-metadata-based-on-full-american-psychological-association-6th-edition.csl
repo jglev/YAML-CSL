@@ -62,8 +62,16 @@
   <macro name="container-contributors">
     <choose>
       <if type="chapter paper-conference entry-dictionary entry-encyclopedia" match="any">
-        <names variable="editor translator container-author" prefix="">
-          <name delimiter="" prefix="Contributor: " suffix="|||" delimiter-precedes-et-al="always" delimiter-precedes-last="always" et-al-min="19" et-al-subsequent-use-first="19" initialize-with="."/>
+        <names variable="editor" prefix="">
+          <name delimiter="" prefix="Editor: " suffix="|||" delimiter-precedes-et-al="always" delimiter-precedes-last="always" et-al-min="19" et-al-subsequent-use-first="19" initialize-with="."/>
+          <label form="short"/>
+        </names>
+        <names variable="translator" prefix="">
+          <name delimiter="" prefix="Translator: " suffix="|||" delimiter-precedes-et-al="always" delimiter-precedes-last="always" et-al-min="19" et-al-subsequent-use-first="19" initialize-with="."/>
+          <label form="short"/>
+        </names>
+        <names variable="container-author" prefix="">
+          <name delimiter="" prefix="Container-author: " suffix="|||" delimiter-precedes-et-al="always" delimiter-precedes-last="always" et-al-min="19" et-al-subsequent-use-first="19" initialize-with="."/>
           <label form="short"/>
         </names>
       </if>
@@ -72,8 +80,16 @@
   <macro name="secondary-contributors">
     <choose>
       <if type="article-journal chapter paper-conference entry-dictionary entry-encyclopedia" match="none">
-        <names variable="translator editor container-author" delimiter="">
-          <name delimiter="" prefix="Contributor: " suffix="|||" initialize-with="."/>
+        <names variable="editor" prefix="">
+          <name delimiter="" prefix="Editor: " suffix="|||" delimiter-precedes-et-al="always" delimiter-precedes-last="always" et-al-min="19" et-al-subsequent-use-first="19" initialize-with="."/>
+          <label form="short"/>
+        </names>
+        <names variable="translator" prefix="">
+          <name delimiter="" prefix="Translator: " suffix="|||" delimiter-precedes-et-al="always" delimiter-precedes-last="always" et-al-min="19" et-al-subsequent-use-first="19" initialize-with="."/>
+          <label form="short"/>
+        </names>
+        <names variable="container-author" prefix="">
+          <name delimiter="" prefix="Container-author: " suffix="|||" delimiter-precedes-et-al="always" delimiter-precedes-last="always" et-al-min="19" et-al-subsequent-use-first="19" initialize-with="."/>
           <label form="short"/>
         </names>
       </if>
