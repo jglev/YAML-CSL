@@ -491,7 +491,7 @@
       <key macro="issued-sort" sort="ascending"/>
       <key macro="title"/>
     </sort>
-    <layout prefix="INSTRUCTIONS: Do a find-and-replace '|||' -&gt; '\r\n' (this means 'new line' in most text editors), and then delete this line.||||||---|||" suffix="---||||||">
+    <layout prefix="INSTRUCTIONS: Use your text editor to find-and-replace all instances of (without the spaces) '| | |' with '\r\n' (this means 'new line' in most text editors). Then delete this line.||||||---|||" suffix="---||||||">
       <group>
         <group delimiter="">
           <text macro="author"/>
