@@ -4,7 +4,7 @@ Using this style definition, the reference
 
 `Alfano, M. (2013). Character as moral fiction. Cambridge: Cambridge University Press. Retrieved from http://public.eblib.com/choice/publicfullrecord.aspx?p=1099907`
 
-...would look like this:
+...would be transformed by the CSL file into this:
 
 ```
 INSTRUCTIONS: Use your text editor to find-and-replace all instances of (without the spaces) '| | |' with '\r\n' (this means 'new line' in most text editors). Then delete this line.||||||---|||Author: Alfano, M.|||Issued: 2013|||Title: Character as moral fiction|||Publisher-place: Cambridge|||Publisher: Cambridge University Press|||URL: http://public.eblib.com/choice/publicfullrecord.aspx?p=1099907|||---||||||
